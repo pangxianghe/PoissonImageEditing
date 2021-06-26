@@ -60,8 +60,8 @@ https://zhuanlan.zhihu.com/p/20718489
 
 ### target   &   SeamlessClone   &   NaiveClone：：
 
-![pool-target](https://user-images.githubusercontent.com/81803879/123515141-dc22bf00-d6c8-11eb-9053-465624aa77d1.jpg)
-![result](https://user-images.githubusercontent.com/81803879/123515160-e1800980-d6c8-11eb-8019-608fdc0b0eac.png)
-![result_naive](https://user-images.githubusercontent.com/81803879/123515168-e47afa00-d6c8-11eb-9e32-e5303ae7eb46.png)
+![pool-target](https://user-images.githubusercontent.com/81803879/123516537-2f980b80-d6cf-11eb-86ba-230ddff16d40.jpg)
+![result](https://user-images.githubusercontent.com/81803879/123516526-13946a00-d6cf-11eb-9884-5624824c9046.png)
+![result_naive](https://user-images.githubusercontent.com/81803879/123516529-1727f100-d6cf-11eb-9cfd-c1825847a62a.png)
 
 
