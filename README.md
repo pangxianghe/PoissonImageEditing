@@ -34,23 +34,23 @@ https://zhuanlan.zhihu.com/p/20718489
 
 
 ## 离散泊松方程解法：
-### 参考：https://en.wikipedia.org/wiki/Discrete_Poisson_equation
-![QQ截图20210626213325](https://user-images.githubusercontent.com/81803879/123514553-2c4c5200-d6c6-11eb-81f4-158d4328c565.png)
-![QQ截图20210626213331](https://user-images.githubusercontent.com/81803879/123514558-2f474280-d6c6-11eb-86e6-2fb4e8e1df4e.png)
+参考：https://en.wikipedia.org/wiki/Discrete_Poisson_equation
+
+![QQ截图20210626222914](https://user-images.githubusercontent.com/81803879/123516311-075bdd00-d6ce-11eb-9a1b-fc2fc738fec6.png)
+![QQ截图20210626222925](https://user-images.githubusercontent.com/81803879/123516313-0925a080-d6ce-11eb-924f-6dbfa93b849a.png)
 
 ## Results：
 
 ### source   &   mask   &   target：：
 
-![QQ截图20210626220337](https://user-images.githubusercontent.com/81803879/123515534-63bcfd80-d6ca-11eb-9c00-538960446905.png)
-![QQ截图20210626220435](https://user-images.githubusercontent.com/81803879/123515570-851de980-d6ca-11eb-9a68-b30bd8d66ff9.png)
-![QQ截图20210626220246](https://user-images.githubusercontent.com/81803879/123515505-41c37b00-d6ca-11eb-99df-d93e56dd09ab.png)
+![leber-source](https://user-images.githubusercontent.com/81803879/123516484-d16b2880-d6ce-11eb-8a7f-523e03d6304e.jpg)
+![mona-mask](https://user-images.githubusercontent.com/81803879/123516486-d4feaf80-d6ce-11eb-8c2a-ce65f436a251.jpg)
+![mona-target](https://user-images.githubusercontent.com/81803879/123516490-dd56ea80-d6ce-11eb-8caf-9bf61de32264.jpg)
 
 ### SeamlessClone   &   NaiveClone：
 
-![QQ截图20210626220513](https://user-images.githubusercontent.com/81803879/123515607-a4b51200-d6ca-11eb-965a-b443a0d95433.png)
-![QQ截图20210626220526](https://user-images.githubusercontent.com/81803879/123515612-a7b00280-d6ca-11eb-902c-39464b19cca0.png)
-
+![result](https://user-images.githubusercontent.com/81803879/123516406-82bd8e80-d6ce-11eb-9b85-970b5cbf8851.png)
+![result_naive](https://user-images.githubusercontent.com/81803879/123516439-a7b20180-d6ce-11eb-93af-743a55d5c9b3.png)
 
 
 ### source   &   mask：
