@@ -24,7 +24,7 @@ https://zhuanlan.zhihu.com/p/20718489
 代入方程：
 ![QQ截图20210626214554](https://user-images.githubusercontent.com/81803879/123514929-e85a4c80-d6c7-11eb-92c8-21fde07f939e.png)
 
-注意到F是关于▲f的函数，而不是f：
+注意到F是关于▽f的函数，而不是f：
 
 ![QQ截图20210626214258](https://user-images.githubusercontent.com/81803879/123514855-80a40180-d6c7-11eb-9bc0-1b87843fe5b9.png)
 
