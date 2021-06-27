@@ -63,4 +63,8 @@ Refer to：https://en.wikipedia.org/wiki/Discrete_Poisson_equation
 ![result](https://user-images.githubusercontent.com/81803879/123516526-13946a00-d6cf-11eb-9884-5624824c9046.png)
 ![result_naive](https://user-images.githubusercontent.com/81803879/123516529-1727f100-d6cf-11eb-9cfd-c1825847a62a.png)
 
+### Seamless Clone   &   Mixing Gradients Clone   :
+![opencv_](https://user-images.githubusercontent.com/81803879/123545444-9a5a4d00-d78a-11eb-9c79-702171b7bd39.png)
+![opencv_0](https://user-images.githubusercontent.com/81803879/123545448-9dedd400-d78a-11eb-8812-0f00d3ed4def.png)
+
 
