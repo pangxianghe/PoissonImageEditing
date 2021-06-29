@@ -116,7 +116,7 @@ and finally do an inverse cosine transform to obtain uij .
 ![test5_src](https://user-images.githubusercontent.com/81803879/123795938-24372100-d917-11eb-9724-f68e50254deb.jpg)
 ![test5_illu_result](https://user-images.githubusercontent.com/81803879/123795946-2600e480-d917-11eb-8428-4fa04f75d5c1.jpg)
 
-## Local Color Change   :
+### Local Color Change   :
 
 ![test6](https://user-images.githubusercontent.com/81803879/123799417-c86e9700-d91a-11eb-92a3-a4fa49920b13.png)
 ![test6_src](https://user-images.githubusercontent.com/81803879/123799430-cdcbe180-d91a-11eb-8791-e8f0662502d2.png)
