@@ -1,6 +1,6 @@
 Poisson Image Editing
 =====
-## Seamless Clone
+## Seamless Clone:
 ![QQ截图20210626213530](https://user-images.githubusercontent.com/81803879/123514618-76cdce80-d6c6-11eb-8cee-6a47a9fbfd93.png)
 
 Let g be the source image with its gradient vector field v, and S be the target image.
@@ -29,14 +29,47 @@ F is the function of ▽ F，rather than f：
 
 ![QQ截图20210626214335](https://user-images.githubusercontent.com/81803879/123514871-944f6800-d6c7-11eb-9e6d-45cf05701c09.png)
 
+## Mixing Gradient Clone:
+
+![QQ截图20210629202914](https://user-images.githubusercontent.com/81803879/123797376-b12eaa00-d918-11eb-8fda-fbb624627344.png)
+
+## Texture Flattening:
+
+![20210629202631](https://user-images.githubusercontent.com/81803879/123797019-585f1180-d918-11eb-92a2-4bf8488842cf.png)
+
+## Local Illumination Change:
+
+![QQ截图20210629202749](https://user-images.githubusercontent.com/81803879/123797157-7b89c100-d918-11eb-9112-b7458f6c784b.png)
+
+## Local Color Change:
+
+Change the gradient of the source or target image.
 
 
 
 ## Discrete_Poisson_equation：
+
+### The equation can be solved in two ways: 
+#### By forming the Ax = b linear equation:
+
+Dirichlet Boundary
+
 Refer to：https://en.wikipedia.org/wiki/Discrete_Poisson_equation
 
 ![QQ截图20210626222914](https://user-images.githubusercontent.com/81803879/123516311-075bdd00-d6ce-11eb-9a1b-fc2fc738fec6.png)
 ![QQ截图20210626222925](https://user-images.githubusercontent.com/81803879/123516313-0925a080-d6ce-11eb-924f-6dbfa93b849a.png)
+
+#### By DST:
+This way is faster and adopted by OpenCV
+
+Neumann Boundary
+
+Refer to https://elonen.iki.fi/code/misc-notes/neumann-cosine/
+
+![20210524105219686 (1](https://user-images.githubusercontent.com/81803879/123796723-fef6e280-d917-11eb-9af5-f113c762051f.png)
+
+
+![QQ截图20210629202149](https://user-images.githubusercontent.com/81803879/123796370-a6bfe080-d917-11eb-81aa-70fbbaa60f0a.png)
 
 ## Results：
 
@@ -64,7 +97,29 @@ Refer to：https://en.wikipedia.org/wiki/Discrete_Poisson_equation
 ![result_naive](https://user-images.githubusercontent.com/81803879/123516529-1727f100-d6cf-11eb-9cfd-c1825847a62a.png)
 
 ### Seamless Clone   &   Mixing Gradients Clone   :
-![opencv_](https://user-images.githubusercontent.com/81803879/123545444-9a5a4d00-d78a-11eb-9c79-702171b7bd39.png)
-![opencv_0](https://user-images.githubusercontent.com/81803879/123545448-9dedd400-d78a-11eb-8812-0f00d3ed4def.png)
+
+![test3_src](https://user-images.githubusercontent.com/81803879/123795430-99562680-d916-11eb-87bf-8befbb705061.jpg)
+![test3_target](https://user-images.githubusercontent.com/81803879/123795591-bf7bc680-d916-11eb-95a5-71b688361c99.jpg)
+![test3_mix_result](https://user-images.githubusercontent.com/81803879/123795600-c1de2080-d916-11eb-9663-5af873535fa6.jpg)
+![test3_result](https://user-images.githubusercontent.com/81803879/123795605-c3a7e400-d916-11eb-9d94-1444f1c0718d.jpg)
+
+### Texture Flattening   ：
+
+![test4_src](https://user-images.githubusercontent.com/81803879/123795840-049ff880-d917-11eb-96ab-301d7e24a459.jpg)
+![test4_flatten_result](https://user-images.githubusercontent.com/81803879/123795795-f8b43680-d916-11eb-8e0f-57f2ea8d3e18.jpg)
+
+### Local Illumination Change   ：
+
+![test5_src](https://user-images.githubusercontent.com/81803879/123795938-24372100-d917-11eb-9724-f68e50254deb.jpg)
+![test5_illu_result](https://user-images.githubusercontent.com/81803879/123795946-2600e480-d917-11eb-8428-4fa04f75d5c1.jpg)
+
+## Local Color Change   :
+
+![test6_src](https://user-images.githubusercontent.com/81803879/123795279-70359600-d916-11eb-916d-e48baf1608de.png)
+![test6](https://user-images.githubusercontent.com/81803879/123795284-7166c300-d916-11eb-90b9-2e4383eabdf2.png)
+
+
+
+
 
 
