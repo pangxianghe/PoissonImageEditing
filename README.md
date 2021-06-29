@@ -64,7 +64,27 @@ Refer to：https://en.wikipedia.org/wiki/Discrete_Poisson_equation
 ![result_naive](https://user-images.githubusercontent.com/81803879/123516529-1727f100-d6cf-11eb-9cfd-c1825847a62a.png)
 
 ### Seamless Clone   &   Mixing Gradients Clone   :
-![opencv_](https://user-images.githubusercontent.com/81803879/123545444-9a5a4d00-d78a-11eb-9c79-702171b7bd39.png)
+
 ![opencv_0](https://user-images.githubusercontent.com/81803879/123545448-9dedd400-d78a-11eb-8812-0f00d3ed4def.png)
+![opencv_](https://user-images.githubusercontent.com/81803879/123545444-9a5a4d00-d78a-11eb-9c79-702171b7bd39.png)
+
+### Texture Flattening   ：
+
+![test4_src](https://user-images.githubusercontent.com/81803879/123795077-2fd61800-d916-11eb-96a3-305a774d65ea.jpg)
+![test4_flatten_result](https://user-images.githubusercontent.com/81803879/123795081-32387200-d916-11eb-8e97-ea15ab717c15.jpg)
+
+### Local Illumination Change   ：
+
+![test5_src](https://user-images.githubusercontent.com/81803879/123794943-03ba9700-d916-11eb-99be-4d1043ce4d40.jpg)
+![test5_illu_result](https://user-images.githubusercontent.com/81803879/123794928-ff8e7980-d915-11eb-837a-639901c69cd7.jpg)
+
+## Local Color Change   :
+
+![test6_src](https://user-images.githubusercontent.com/81803879/123795279-70359600-d916-11eb-916d-e48baf1608de.png)
+![test6](https://user-images.githubusercontent.com/81803879/123795284-7166c300-d916-11eb-90b9-2e4383eabdf2.png)
+
+
+
+
 
 
