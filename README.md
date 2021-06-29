@@ -68,8 +68,11 @@ Refer to https://elonen.iki.fi/code/misc-notes/neumann-cosine/
 
 ![20210524105219686 (1](https://user-images.githubusercontent.com/81803879/123796723-fef6e280-d917-11eb-9af5-f113c762051f.png)
 
+To solve the Poisson equation, first compute the 2D cosine transform ρmn, then calculate
 
 ![QQ截图20210629202149](https://user-images.githubusercontent.com/81803879/123796370-a6bfe080-d917-11eb-81aa-70fbbaa60f0a.png)
+
+and finally do an inverse cosine transform to obtain uij .
 
 ## Results：
 
